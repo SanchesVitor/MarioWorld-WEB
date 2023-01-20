@@ -61,6 +61,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   border: none;
+  border-radius: 5px;
   text-transform: uppercase;
   transition: 0.5s all ease-in-out;
 }
@@ -76,6 +77,8 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .fundo-video .video {
